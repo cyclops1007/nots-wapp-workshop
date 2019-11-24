@@ -68,6 +68,15 @@ EF bevat informatie over hoe het conceptual model mapped naar het databaseschema
 Deze drie worden samen gebruikt bij het uitvoeren van CRUD operaties op de database en het transformeren van de query resultaten naar Entity Objects.
 
 ## Hoe implementeer je het Entity Framework?
+Bij een Database first implementatie van het Entity framework wordt er eerst een database aangemaakt en daarin een of meerdere tabellen. 
+
+[INSERT DATABASE IMAGE HERE]
+
+Hierna wordt er een applicatie aangemaakt, deze applicatie kan een web of console applicatie type zijn. Wanneer deze applicatie is aangemaakt gaat de persoon naar Tools > NuGet Package Manager > Manage NuGet Packages for Solution. Hier moet de persoon dan in de searchbar "microsoft.entityframeworkcore" en selecteer het eerste resultaat. Vink dan het project aan in het rechterscherm een wijzig de versie naar de meest recente versie, wanneer dit gedaan is klik dan op install. Herhaal dit proces voor microsoft.entityframeworkcore.tools en microsoft.entityframeworkcore.sqlserver. 
+
+[INSERT ENTITY FRAMEWORK CORE IMAGE HERE]
+
+Wanneer deze zijn geïnstalleerd kan de persoon naar Tools > NuGet Package Manager > Package Manager Console. In deze console wordt het volgende ingevoerd: Scaffold-DbContext "Server=[SERVER_NAME];Database=DBFirstDemo;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir [Models]. [SERVER_NAME] moet vervangen worden met de servernaam van die deze persoon gebruikt, de [Models] kan gewijzigd worden naar een map naar keuze. 
 
 # Repository Pattern
 ## Wat is het Repository Pattern?
