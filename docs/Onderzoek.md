@@ -93,15 +93,15 @@ Om de wijzigingen aan deze collectie op te slaan in een database, wordt gebruik 
 ## Hoe implementeer je het Repository Pattern?
 # Bronnen
 ## Entity Framework
-https://www.entityframeworktutorial.net/what-is-entityframework.aspx
+What is Entity Framework? (z.d.). Geraadpleegd op 21 november 2019, van https://www.entityframeworktutorial.net/what-is-entityframework.aspx
 
-https://www.youtube.com/watch?time_continue=3&v=ZX7_12fwQLU&feature=emb_logo
+Hamedani, M. (2017, 13 april). YouTube [YouTube]. Geraadpleegd op 21 november 2019, van https://www.youtube.com/watch?time_continue=3&v=ZX7_12fwQLU&feature=emb_logo
 
 ## Repository Pattern
-https://www.youtube.com/watch?time_continue=1&v=rtXpYpZdOzM&feature=emb_logo
+Hamedani, M. (2015, 15 oktober). YouTube [YouTube]. Geraadpleegd op 22 november 2019, van https://www.youtube.com/watch?time_continue=1&v=rtXpYpZdOzM&feature=emb_logo
 
-https://www.infragistics.com/community/blogs/b/dhananjay_kumar/posts/how-to-implement-the-repository-pattern-in-asp-net-mvc-application
+Kumar, D. (2019, 19 november). How to Implement the Repository Pattern in ASP.NET MVC Application | Infragistics Blog. Geraadpleegd op 22 november 2019, van https://www.infragistics.com/community/blogs/b/dhananjay_kumar/posts/how-to-implement-the-repository-pattern-in-asp-net-mvc-application
 
-https://dev.to/kylegalbraith/getting-familiar-with-the-awesome-repository-pattern--1ao3
+Galbraith, K. (2018, 6 maart). Getting Familiar With The Awesome Repository Pattern. Geraadpleegd op 22 november 2019, van https://dev.to/kylegalbraith/getting-familiar-with-the-awesome-repository-pattern--1ao3
 
-https://medium.com/@pererikbergman/repository-design-pattern-e28c0f3e4a30
+Bergman, P. E. (2019, 20 april). Repository Design Pattern. Geraadpleegd op 22 november 2019, van https://medium.com/@pererikbergman/repository-design-pattern-e28c0f3e4a30
