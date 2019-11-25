@@ -113,6 +113,9 @@ Merk op dat er bovenstaand geen methode aanwezig is om een object te updaten. Di
 Om de wijzigingen aan deze collectie op te slaan in een database, wordt gebruik gemaakt van het Unit of Work Pattern. Een Unit of Work houdt een of meerdere soorten collecties bij van objecten waar CRUD operaties op zijn uitgevoerd. Een Unit of Work bevat een `Save()` methode dat verantwoordelijk is voor het opslaan van deze wijzigingen in een database.
 
 ## Hoe implementeer je het Repository Pattern?
+Om het Repository pattern te implementeren begin je met het aanmaken van een Entity framework applicatie zoals beschreven in het Entity framework hoofdstuk. Wanneer deze applicatie is aangemaakt moet er een Repository aangemaakt worden, dit wordt gedaan door een map genaamd Repositories aan te maken en daarin een generic interface in te zetten waarbij T verwijst naar een entity.
+Vervolgens worden hier CRUD operaties in aqangemaakt zoals hieronder staat afgebeeld.
+
 # Bronnen
 ## Entity Framework
 https://www.entityframeworktutorial.net/what-is-entityframework.aspx
